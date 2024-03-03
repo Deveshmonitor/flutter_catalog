@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome TO catalog $day of flutter by name"),
+          child: Text("Welcome TO catalog $day of flutter by $name"),
         ),
       ),
       drawer: Drawer(),

@@ -18,7 +18,9 @@ class MyApp extends StatelessWidget {
     // final pi = 3.2;
     // const devesh = "devesh";
     // var deve = 1;
+
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
